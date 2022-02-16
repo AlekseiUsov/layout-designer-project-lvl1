@@ -1,7 +1,149 @@
 /** CSS STYLE **/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans&display=swap");
 
 .hello {
   display: block;
 
   color: #fff;
 }
+
+body {
+  font-family: "OpenSans", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #2a2626;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Neucha", "Arial", sans-serif;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+/* header section start */
+
+.header {
+  background-color: #f5f4f0;
+}
+
+.header__h1 {
+  text-align: start;
+}
+
+.header__h1--orange {
+  color: #fe8a02;
+}
+
+/* header section end */
+
+/* video section start */
+
+.video__h1 {
+  text-align: center;
+}
+
+.video__h1--orange {
+  color: #fe8a02;
+}
+
+.video__text {
+  text-align: center;
+}
+
+/* video section end */
+
+/* five-distortions section start */
+.five-distortions {
+  background: #42413c;
+}
+
+.five-distortions__h2 {
+  font-size: 52px;
+  color: #fff;
+}
+
+.five-distortions__h2--orange {
+  color: #fe8a02;
+}
+
+.five-distortions__item {
+  background: #fff;
+}
+
+.five-distortions__name {
+  color: #fe8a02;
+}
+/* five-distortions section end */
+
+/* distortion sections start */
+
+.distortion__decor-text {
+  font-size: 24px;
+}
+
+.distortion__strip-text {
+  font-size: 14px;
+}
+
+/* distortion sections end */
+
+/* distortion--ligth sections start */
+
+.distortion--ligth {
+  background-color: #f5f4f0;
+}
+
+/* distortion--ligth sections end */
+
+/* distortion--dark sections start */
+
+.distortion--dark {
+  background-color: #b09a81;
+}
+
+.distortion--dark p,
+.distortion--dark h2,
+.distortion--dark h3 {
+  color: #fff;
+}
+
+/* distortion--dark sections end */
+
+/* footer start */
+
+.footer__block {
+  background-color: #42413c;
+}
+
+.footer__h3 {
+  color: #fff;
+}
+
+.footer__block p {
+  color: #fff;
+}
+
+/* footer end */
