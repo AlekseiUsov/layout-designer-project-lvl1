@@ -1,13 +1,14 @@
 extends:
   - stylelint-config-standard-scss
   - stylelint-config-rational-order
-
+ 
 plugins:
   - stylelint-scss
   - stylelint-order
-
+ 
 rules:
   declaration-empty-line-before: null
+  selector-class-pattern: null
   plugin/rational-order:
     - true
     - empty-line-between-groups: true

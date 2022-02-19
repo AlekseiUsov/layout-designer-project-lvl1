@@ -9,10 +9,10 @@
 }
 
 body {
-  font-family: "OpenSans", "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 1.6em;
   color: #2a2626;
+  font-size: 16px;
+  font-family: "OpenSans", "Arial", sans-serif;
+  line-height: 1.6em;
 }
 
 h1,
@@ -81,8 +81,8 @@ h3 {
 }
 
 .five-distortions__h2 {
-  font-size: 52px;
   color: #fff;
+  font-size: 52px;
 }
 
 .five-distortions__h2--orange {
@@ -96,6 +96,7 @@ h3 {
 .five-distortions__name {
   color: #fe8a02;
 }
+
 /* five-distortions section end */
 
 /* distortion sections start */
