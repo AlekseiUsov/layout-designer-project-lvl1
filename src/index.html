@@ -9,26 +9,31 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <header class="header">
-    <div class="wrapper">
-      <h1 class="header__h1 header__h1--orange">Когнитивные</h1>
-      <h1 class="header__h1 header__h1--orange">искажения</h1>
-        <h1 class="header__h1">в программировании</h1>
-      </h1>
+    <div class="wrapper wrapper--header">
+      <h1 class="header__h1 header__h1--orange">Когнитивные<br>искажения<br><span class="header__h1--black">в программировании</span></h1>
+      <div class="header__picture">
+        <img src="/src/img/tota_ill-4 1.png">
+      </div>
       <div class="header__paragraphs">
-        <p>
-          Мы, разработчики, часто сталкиваемся с проблемами, которые идут
+        <div class="header__paragraph header__paragraph--left">
+          <p>Мы, разработчики, часто сталкиваемся с проблемами, которые идут
           вразрез с нашей продуктивностью. Но мы часто игнорируем целостную
           картину. Некоторые из этих проблем малозаметны, некоторые существенны.
           Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.
         </p>
-        <p>
-          Вместе они формируют что-то вроде замкнутого цикла, и это может
-          привести к длительной потере продуктивности, багам и бесконечному
-          разочарованию. Если мы сможем минимизировать воздействие одного или
+        </div>
+        <div class="header__paragraph header__paragraph--right">
+          <p>Вместе они формируют что-то вроде замкнутого цикла, и это может
+            привести к длительной потере продуктивности, багам и бесконечному
+            разочарованию. 
+          </p>
+          <p>
+          Если мы сможем минимизировать воздействие одного или
           нескольких из этих факторов, то сможем сломать и цикл, а остатки
           нейтрализовать.
-        </p>
-        <button class="header__button">подробнее</button>
+          </p>
+          <button class="header__button">подробнее</button>
+        </div>
       </div>
     </div>
   </header>
@@ -38,15 +43,13 @@
       <section class="video">
         <div class="wrapper">
           <div class="video__header">
-            <h2 class="video__h1">Что же это такое,</h2>
-            <h2 class="video__h1 video__h1--orange">когнитивные искажения?</h2>
-            </h1>
+            <h2 class="video__h1">Что же это такое,<br><span class="video__h1 video__h1--orange">когнитивные искажения?</span></h2>
             <p class="video__text">
               Что такое когнитивные искажения. Petrovna Channel
             </p>
           </div>
           <div class="video__video">
-            <video></video>
+              <iframe class="video" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
       </section>
@@ -212,9 +215,9 @@
             <p class="section__text">
               Немедленная выгода от использования чего-то быстродоступного значительно смягчает боль, которую нужно перетерпеть, чтобы усвоить правильный синтаксис для перемещения на нужную строчку. Но как только вы поймёте как перемещаться быстрее, выгода в будущем намного выше. В итоге вы сохраните много времени.
             </p>
-          </div>
         </div>
-      </section>
+        </div>
+        </section>
       <section class="distortion distortion--ligth distortion--distortion-of-novelty">
         <div class="wrapper">
           <div class="distortion__inner">
@@ -247,7 +250,7 @@
            <h3 class="footer__h3">Хотите узнать больше? Подпишитесь на обновления</h3>
             <p class="footer__email">Электронная почта</p>
             <input type="email" placeholder="Ваша электронная почта">
-            <p class="footer__notice">Подписываясь, вы принимаете правила сервиса</p>
+              <p class="footer__notice">Подписываясь, вы принимаете правила сервиса</p>
           </div>
           <p class="footer__autor">© 2020 Константин Константинопольский</p>
           <p class="footer__article">По материалам статьи <a href="#">Yash Ranadive Cognitive Biases in Programming</a></p>
