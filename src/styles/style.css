@@ -191,40 +191,100 @@ h3 {
   margin: 0 0 30px 0;
 }
 
+.distortion__inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.distortion__block {
+  flex: 1;
+}
+
+.distortion__image {
+  width: 578px;
+  vertical-align: middle;  
+}
+
 .distortion__decor-text {
-  margin: 0;
   font-size: 24px;
+}
+
+.distortion__strip {
+  width: 100%;
+}
+
+.distortion__strip-text {
+  font-size: 14px;
+  margin: 0 5px;
+}
+
+.distortion__text {
+  flex: 1 1 40%;
+}
+
+/* distortion sections end */
+
+/* distortion--grey sections start */
+.distortion--grey {
+  position: relative;
+}
+
+.distortion--grey::before {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  z-index: -1;
+
+  content: "";
+ 
+  width: 100%;
+  height: 100%;
+  background: url("../img/background.png") top left / cover no-repeat;
+  background-color: #f5f4f0;
+
+  opacity: 0.9;
 }
 
 .distortion__decor-text--gray {
   color:#908D8B;
 }
 
-.distortion__strip-text {
-  font-size: 14px;
+.distortion__strip--brown {
+  background-color: #B09A81;
 }
 
-/* distortion sections end */
-
-/* distortion--ligth sections start */
-
-.distortion--ligth {
-  background-color: #f5f4f0;
+.distortion__strip-text--white {
+  color: #fff;
+  text-transform: uppercase;
 }
 
 /* distortion--ligth sections end */
 
 /* distortion--dark sections start */
+.distortion--brown {
+  position: relative;
+}
 
-.distortion--dark {
+.distortion--brown::before {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  z-index: -1;
+
+  content: "";
+ 
+  width: 100%;
+  height: 100%;
+  background: url("../img/background.png") top left / cover no-repeat;
   background-color: #b09a81;
+
+  opacity: 0.9;
 }
 
-.distortion--dark p,
-.distortion--dark h2,
-.distortion--dark h3 {
-  color: #fff;
-}
 
 /* distortion--dark sections end */
 
