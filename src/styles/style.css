@@ -22,6 +22,7 @@ h3,
 h4,
 h5 {
   font-family: Neucha, Arial, sans-serif;
+  font-weight: normal;
   line-height: 1.2em;
 }
 
@@ -106,7 +107,7 @@ h3 {
 }
 
 .header__button {
-  padding: 10px 20px;
+  padding: 12px 24px;
   background-color: #fe8a02;
   border: none;
   text-transform: uppercase;
@@ -139,20 +140,44 @@ h3 {
 
 /* five-distortions section start */
 .five-distortions {
+  padding-top: 100px;
   background: #42413c;
+}
+
+.five-distortions__navigation {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .five-distortions__h2 {
   color: #fff;
   font-size: 52px;
+  flex: 1 1 320px;
 }
 
 .five-distortions__h2--orange {
   color: #fe8a02;
 }
 
+.five-distortions__h2--white {
+  color: #fff;
+}
+
 .five-distortions__item {
-  background: #fff;
+  background: #F5F4F0;
+  padding: 24px;
+  flex: 1 1 250px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.five-distortions__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.five-distortions__number {
+  font-size: 64px;
+  margin: 0 0 40px 0;
 }
 
 .five-distortions__name {
@@ -162,9 +187,17 @@ h3 {
 /* five-distortions section end */
 
 /* distortion sections start */
+.distortion__h2 {
+  margin: 0 0 30px 0;
+}
 
 .distortion__decor-text {
+  margin: 0;
   font-size: 24px;
+}
+
+.distortion__decor-text--gray {
+  color:#908D8B;
 }
 
 .distortion__strip-text {
